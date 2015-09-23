@@ -7,7 +7,7 @@ get_song.php
 
   $response = array();
 
- if(isset($_POST['sessionID']))
+ if(!empty($_POST['sessionID']))
  {
 	$sessionID = $_POST['sessionID'];
 

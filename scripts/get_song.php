@@ -31,7 +31,7 @@ get_song.php
 		}
 	}
     else {
-        echo "<h3>No one is currently registered.</h3>"
+        echo "<h1>No one is currently registered.</h1>"
     }
 	mysqli_close($db);
  }

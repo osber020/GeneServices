@@ -31,12 +31,7 @@ get_song.php
 		}
 	}
     else {
-        $result = "Words Go here";
-        $profile = array();
-        $profile["songHash"] = "This is where a response should go";
-        $response["next"] = array();
-        array_push($response["next"], $profile);
-        echo json_encode($response);
+        echo "<h3>No one is currently registered.</h3>"
     }
 	mysqli_close($db);
  }
